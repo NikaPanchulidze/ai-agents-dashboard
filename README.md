@@ -61,3 +61,14 @@ To test loading skeletons and async UI behavior:
 ![alt text](image.png)
 
 ![alt text](image-1.png)
+
+## Assumptions
+
+- All activity data is fetched from a client-side API endpoint via the useActivities hook.
+- Filtering and sorting are handled client-side given the static data size.
+
+## What I Would Improve With More Time
+
+- Add debounced search to improve performance with large datasets.
+- Integrate pagination or infinite scrolling for better scalability.
+- Filtering and searching would happen on server side.
