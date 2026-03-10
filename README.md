@@ -13,8 +13,8 @@ A frontend application for monitoring AI agent activities in real time.
 ## Getting Started
 
 ```bash
-git clone https://github.com/NikaPanchulidze/<repo-name>
-cd <project-directory>
+git clone https://github.com/NikaPanchulidze/ai-agents-dashboard.git
+cd ai-agents-dashboard
 npm install
 npm run prod
 ```
