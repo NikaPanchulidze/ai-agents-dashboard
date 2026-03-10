@@ -55,7 +55,6 @@ To test loading skeletons and async UI behavior:
 
 1. Open `lib/api/getActivities.ts`
 2. Uncomment the artificial delay line (shown below)
-3. Restart the dev server if running in production mode
 
 > **Note:** If using `npm run prod`, you must restart the server after making this change for it to take effect.
 
