@@ -8,7 +8,7 @@ export const getActivities = async (): Promise<Activity[]> => {
   }
 
   // Simulate network delay (2 seconds)
-  await new Promise((resolve) => setTimeout(resolve, 2000));
+  // await new Promise((resolve) => setTimeout(resolve, 2000));
 
   return res.json();
 };
